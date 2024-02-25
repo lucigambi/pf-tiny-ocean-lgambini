@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #C1DADF;
+    
+}
+html {
+    font-size: 16px; /* Tamaño de fuente base para usar REM */
+}
+body {background-color: #243f68;}
+
+.margen-superior {
+    margin-top: 100px;
+  }
+
+/* ///////////////////Mis Clases de TEXTO/////////////////// */
+.text-lg {
+    font-size: 2.427rem; /* Tamaño grande */
+    font-weight: 600;
+    padding-top: 1rem ;
+    
+}
+
+.text-md {
+    font-size:  1.5rem; /* Tamaño mediano */
+    font-weight: 400;
+    
+}
+
+.text-sm {
+    font-size: 1.5rem; /* Tamaño pequeño */
+    font-weight: 200;
+    
+}
+
+.text-regular {
+    font-size: 1rem; /* Tamaño pequeño */
+    font-weight: 200;
+
+}
+/* ///////////////////Clases para EDITORIAL/////////////////// */
+.main__cont__parrafo {
+    padding: 1.5rem;
+}
+
+.editorial__cont__parrafo {
+    max-width: 400px; 
+    width: 100%;
+}
+
+.editorial__cont__parrafo__p {
+    padding: 0.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+/* ///////////////////Clases para CARDS/////////////////// */
+
+.cards {
+    height: 27rem;
+    background-color: #27496d;
+    border-radius: 14px;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    color: #c1dadf;
+}
+
+.cards__img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.cards__title {
+    font-size: 1.5rem; 
+    margin-top: 1rem;
+    font-weight: 500;
+    color: #00a8cc;
+}
+
+.cards__subtitle {
+    font-size: 0.926875rem;
+    font-weight: 600;   
+}
+
+.cards__description {
+    font-size: 0.926875rem; 
+    text-align: center;  
+}
+
+.cards__button {
+    font-size: 0.926875rem; 
+    text-align: center;
+    background-image: linear-gradient(to bottom, #00a8cc, #0c7b93); /* Cambia los colores según tus preferencias */
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 100%;
+}
+
+.cards__button__img {
+    max-width: 10%; 
+    height: auto; 
+    margin-left: 0.5rem;
+}
+
+
+/* ///////////////////Clases para NAVBAR de Boostrap/////////////////// */
+.navbar {
+    --bs-navbar-hover-color: rgba(var(--bs-emphasis-color-rgb), 0.8);
+    --bs-navbar-disabled-color: rgba(var(--bs-emphasis-color-rgb), 0.3);
+    --bs-navbar-active-color: rgba(var(--bs-emphasis-color-rgb), 1);
+    --bs-navbar-toggler-padding-x: 0;
+    --bs-navbar-toggler-border-color: rgba(var(--bs-emphasis-color-rgb), 0);
+    --bs-navbar-toggler-focus-width: 0;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #142850);
+    --bs-navbar-padding-x: 1rem;
+    --bs-navbar-padding-y: 1rem;
+}
+/* Invierte el color del Icono hamburguesa */
+.navbar-toggler-icon {
+    filter: invert(1); /* Invertir el color del SVG para que aparezca blanco */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #c1dadf; 
+}
+/* Espacio a los costados de navbar*/
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    padding-right: calc(var(--bs-gutter-x) * 0); 
+    padding-left: calc(var(--bs-gutter-x) * 0); 
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 0;
+}
+
+.nav-link {
+    color: rgb(255 255 255 / 100%);
+}
+
+/* ////////Dropdown de NAVBAR/////////*/
+.dropdown-menu {
+    /* color de fondo del popup */
+   --bs-dropdown-bg: #142850;
+   /* color de a */
+   --bs-dropdown-link-color: #fff;
+   /* color texto hover */
+   --bs-dropdown-link-hover-color: #345f90;
+   --bs-dropdown-link-active-color:  #fff; 
+}
+
+a.nav-link.dropdown-toggle.show {
+   color: #345f90;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+   color:  #fff;
+   background-color: #345f90;
+}
+
+
+/* Boton Search*/
+.btn-success {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #345f90;
+    --bs-btn-border-color: #345f90;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #142850;
+    --bs-btn-hover-border-color: #142850;
+    --bs-btn-focus-shadow-rgb: 60,153,110;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #345f90;
+    --bs-btn-active-border-color: #345f90;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #345f90;
+    --bs-btn-disabled-border-color: #345f90;
+}
+
+/* ///////////////////start acordion boostrap/////////////////// */
+.accordion-cont {
+    width: 80%; margin: 0 auto;
+    display: flex;
+    
+    justify-content: center;
+    align-items: flex-end;
+}
+.accordion-item {
+    border: 0;
+    color: #142850;
+    --bs-accordion-active-color:  #fff;
+    font-size: 0.926875rem; /* Párrafos */
+    text-align: left;
+ }
+ 
+ .accordion-button {
+     background-color: #243f68;
+     color:  #fff; 
+ }
+ 
+ .accordion-title {
+     color:  #fff;
+ }
+ 
+ .accordion-button:not(.collapsed) {
+     background-color: #00a8cc;
+ }
+
+ .accordion-body {
+    color:  #243f68;
+}
+.bg-row-custom {
+    background-color: #142850; /* Color de fondo para div */
+}
+
+/*////////////////////////// FOOTER ////////////////////////// */
+
+.footer-flex {
+    background-position: center bottom;
+    background-image: url('../assets/footer-01.png');
+    background-size: cover; /* Para cubrir todo el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 12.75rem;    
+    
+}
+
+footer ul li {
+    margin: 5px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: flex-end; 
+}
+
+.footer-flex ul {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    list-style-type: none; /* Elimina los marcadores de lista */
+    
+    
+}
+
+.footer-flex a {
+    color: #c1dadf;
+    text-decoration: none;
+}
+
+
+  
+
+/*////////////////////////// REMERAS ////////////////////////// */
+.select_center {
+    width: 50%; 
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* Estilo para el select */
+select {
+    width: 50%;
+    padding: 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color:#243f68;
+    color: #c1dadf;
+  }
+
+  select:focus {
+    outline: none; /* Elimina el borde en el estado de foco */
+  }
+   
+  /* Estilo para el botón radial */
+  .radios label {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  /* Estilo para el botón radial seleccionado */
+  .radios input[type="radio"]:checked + label {
+    color:#00A8CC;
+  }
+
+  .select__button {
+    font-size: 0.926875rem; 
+    text-align: center;
+    background-image: linear-gradient(to bottom, #00a8cc, #0c7b93); /* Cambia los colores según tus preferencias */
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 30%;
+}
+
+
+
+
+/*////////////////////////// MEDIA QUERIES ////////////////////////// */
+
+/* DESKTOP */
+@media only screen and (min-width: 768px) {
+    /* Ocultar el carrusel en dispositivos de escritorio y tabletas */
+    #carouselExample {
+        display: none;
+    }
+
+    /* Mostrar el banner solo en escritorio y tabletas */
+    .banner-image {
+        display: block;
+    }
+}
+
+/* TABLET */
+@media only screen and (min-width: 768px) {
+    /* Ocultar el carrusel en dispositivos de escritorio y tabletas */
+    #carouselExample {
+        display: none;
+    }
+
+    /* Mostrar el banner solo en escritorio y tabletas */
+    .banner-image {
+        display: block;
+    }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 767px) {
+    /* Ocultar el banner en dispositivos móviles */
+    .banner-image {
+        display: none;
+    }
+
+    .hide-on-mobile {
+        display: none; /* Ocultar la sección en dispositivos móviles */
+      }
+
+
+      /* Textos */
+    .text-mobile-lg {
+        font-size: 1.5rem; 
+        font-weight: 600;
+    }
+
+    .text-mobile-md {
+        font-size: 0.927rem; 
+        font-weight: 400;
+    }
+
+    .text-mobile-sm {
+        font-size: 0.927rem; 
+        font-weight: 200;
+    }
+
+}
