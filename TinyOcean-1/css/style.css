@@ -1,0 +1,191 @@
+/* Reset Configuracion básica de mis estilos */
+*{
+    font-family: 'Roboto', sans-serif;
+    color: #3a61a5;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto; /* Para centrar toda la tabla 
+    max-width: 1200px; /* Ancho de mi tabla */
+    background-color: #3a61a5;
+}
+
+.fondo-sitio {
+    background-image: url(../assets/background.png);
+    /*background-size: cover; */
+    background-position: top center; 
+    background-repeat: no-repeat;
+    max-width: 1200px;
+}
+
+/* display: inline-block alinea los elementos de la lista horizontalmente, margin-right: pone espacio al final de cada elemento de la lista  */
+.menu-color li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+    
+}
+
+.menu-color li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+    
+}
+
+.productos-destacados{ 
+    background-color: #ffffff;
+    vertical-align: top;
+    border-radius: 40px; 
+    padding: 20px;
+    margin-top: 0px;   
+    margin-right: 40px;  
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.mi-seccion {
+    text-align: center;
+}
+
+.mi-seccion p {
+    display: inline-block;
+    vertical-align: middle;
+    width: 500px;
+    text-align: left;
+}
+
+.mi-seccion img {
+    max-width: 100%;
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.texto-descriptivo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 500px;
+    text-align: left;
+}
+
+h1 {
+    color: #20c6d2;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+h2 {
+    color: #1b2569;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+h3 {
+    color: #a4e6e8;
+    font-size: 30px;
+    font-weight: 00;
+    line-height: 40px;
+}
+
+h4 {
+    color: #a4e6e8;
+    font-size: 14px;
+    font-weight: 00;
+    line-height: 24px;
+}
+
+h5 {
+    color: #a4e6e8;
+    font-size: 15px;
+    font-weight: 00;
+    line-height: 20px;
+}
+
+h6 {
+    color: #20c6d2;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.ofertas {
+    text-align: left;
+    width: 200px;
+    display: inline-block;
+    margin-top: 15px;   
+}
+
+button {
+    background-color: #20c6d2; 
+    color: #ffffff; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 10px; 
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+}
+
+button:hover {
+    background-color: #78ecf5; /* Cambia el color de fondo al pasar sobre el botón */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.buscar-form {
+    display: flex;
+}
+
+.buscar-input {
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    height: 15px;
+    margin: 35px 0;
+    flex: 1;
+}
+
+.buscar-boton {
+    background-color: #20c6d2; /* Color de fondo */
+    color: #ffffff; /* Color del texto */
+    padding: 5px 10px; 
+    font-size: 16px; /* Tamaño de fuente */
+    border: none; /* Elimina el borde predeterminado */
+    border-radius: 10px; 
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    margin-left: 10px;
+    height: 40px;
+    margin-left: 10px;
+    margin-bottom: 0
+}
+
+.buscar-boton:hover {
+    background-color: #78ecf5; /* Es como un rollover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+input, textarea {
+    background-color: #e7e9e9;
+    border: none;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    margin: 2;
+    padding: 2;
+    border-radius: 10px;
+}
+
+

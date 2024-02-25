@@ -1,0 +1,43 @@
+/* CSS HEX */
+--rich-black: #01161eff;
+--midnight-green: #124559ff;
+--air-force-blue: #598392ff;
+--ash-gray: #aec3b0ff;
+--beige: #eff6e0ff;
+---------------------------------------
+/* CSS HEX */
+--indigo-dye: #274060ff;
+--lapis-lazuli: #335c81ff;
+--argentinian-blue: #65afffff;
+--space-cadet: #1b2845ff;
+--united-nations-blue: #5899e2ff;
+---------------------------------------
+/* CSS HEX */
+--space-cadet: #22223bff;
+--ultra-violet: #4a4e69ff;
+--rose-quartz: #9a8c98ff;
+--pale-dogwood: #c9ada7ff;
+--isabelline: #f2e9e4ff;
+---------------------------------------
+FONTS ELEGIDAS
+<head>
+font-family: 'Roboto', sans-serif;
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,100&display=swap" rel="stylesheet">
+
+css
+font-family: 'Roboto', sans-serif;
+---------------------------------------
